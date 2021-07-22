@@ -11,5 +11,14 @@
     z-index: 1;
     justify-self: center;
     align-self: end;
-    
+    z-index: 3;
+}
+
+.cover__title:hover  {
+    cursor: pointer;
+}
+
+.cover__title:hover ~ .cover__overlay{
+    opacity: .8;
+    transition: opacity .3s;
 }
