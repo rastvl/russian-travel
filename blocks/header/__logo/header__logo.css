@@ -3,4 +3,14 @@
     background-image: url("../../../images/header-logo.svg");
     width: 176px;
     height: 52px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .header__logo {
+        margin-left: 16px;
+        width: 142px;
+        height: 42px;
+    }
+     
 }

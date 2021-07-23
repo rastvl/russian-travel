@@ -22,3 +22,12 @@
     opacity: .8;
     transition: opacity .3s;
 }
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+        /* max-width: 90%; */
+    }
+}

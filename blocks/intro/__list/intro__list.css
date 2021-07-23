@@ -1,5 +1,17 @@
 .intro__list {
-    margin: 33px 0 0;
+    margin: 33px auto 0;
     padding: 0;
     list-style: none;
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        /* margin-left: -2px; */
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .intro__list {
+        min-width: 100px;
+    }
 }

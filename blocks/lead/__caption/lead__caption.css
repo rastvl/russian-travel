@@ -7,4 +7,11 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin: 8px 0 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
 }

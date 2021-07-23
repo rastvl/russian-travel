@@ -17,3 +17,13 @@
     opacity: .8;
     transition: opacity .3s;    
 }
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        margin-bottom: 32px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
+}
