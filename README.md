@@ -7,4 +7,4 @@
 * Верстка по figma
 * медиазапросы
 
-* [Ссылка на gh-pages](https://rastvl.github.io/russian-travel/index.html)
+[Ссылка на gh-pages](https://rastvl.github.io/russian-travel/index.html)
