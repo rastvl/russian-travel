@@ -13,15 +13,6 @@
     z-index: 1;
 }
 
-.cover__subtitle:hover {
-    cursor: pointer;
-}
-
-.cover__subtitle:hover ~ .cover__overlay{
-    opacity: .8;
-    transition: opacity .3s;
-}
-
 @media screen and (max-width: 767px) {
     .cover__subtitle {
         font-size: 14px;
