@@ -18,7 +18,8 @@
     .place__paragraph {
         font-size: 16px;
         grid-column: 2/3;
-        width: 97%;  
+        width: 97%; 
+        margin-bottom: 25px;
     }
 
     .place__paragraph:nth-of-type(2) {
@@ -28,13 +29,6 @@
 
 @media screen and (max-width: 767px) {
     .place__paragraph {
-        font-size: 16px;
-        grid-column: 2/3;
-        width: 97%;
         margin: 32px 0 25px;
-    }
-
-    .place__paragraph:nth-of-type(2) {
-        margin: 0;
     }
 }

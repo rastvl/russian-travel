@@ -3,8 +3,3 @@
     grid-column: 1/2;
     z-index: 2;
 }
-
-.cover__link:hover ~ .cover__overlay{
-    opacity: .8;
-    transition: opacity .3s;
-}

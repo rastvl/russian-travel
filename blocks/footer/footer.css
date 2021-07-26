@@ -19,3 +19,9 @@
         align-items: flex-start;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin-left: 16px;
+    }
+}
