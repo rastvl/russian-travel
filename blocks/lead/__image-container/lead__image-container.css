@@ -15,3 +15,9 @@
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .lead__image-container {
+        margin: 40px auto 0;
+    }
+}

@@ -4,8 +4,14 @@
     display: grid;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .cover {
-        margin: 67px auto 64px;
+        margin: 64px auto 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 66px auto 64px;
     }
 }
